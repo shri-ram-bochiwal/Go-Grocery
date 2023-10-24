@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Go-Grocery List</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Go-Grocery</h1>
+        <div>
+            <input type="text" id="groceryItem" placeholder="Enter an item">
+            <button onclick="addItem()">Search</button>
+        </div>
+
+        <div class="lists-container">
+            <div class="list">
+                <h1>Vegitable</h1>
+                <ul id="vegitableList">
+                    <li><input type="checkbox" name="vegItem1"> Potato <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem2"> Carrot <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem3"> Tomato <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem4"> Onion <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem5"> Green chilly <a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h1>Fruits</h1>
+                <ul id="fruits">
+                    <li><input type="checkbox" name="vegItem6">Apple <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem7">Banana <a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h1>Grocery List</h1>
+                <ul id="groceryList">
+                    <li><input type="checkbox" name="vegItem8"> Wheat <a href="#"></a></li>
+                    <li><input type="checkbox" name="vegItem9"> Rice <a href="#"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div>
+            <h1>Add Cart</h1>
+            <ul id="addItemCart">
+            </ul>
+        </div>
+    </body>
+</html>
